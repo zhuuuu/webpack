@@ -1,0 +1,17 @@
+body{background: pink;}
+.ot{background: blue;}
+.ot .ac{font-size: 50px;}
+/* body{background: url("../img/1.jpg");} 或者在main.js中引入 */
+@font-face{
+    font-family: "f";
+    src:url('../fonts/fontawesome-webfont.ttf');
+}
+
+.ro{
+    font-family: f;
+    font-size: 60px;
+}
+/* before指定所写的内容 */
+.ro::before{
+    content:"\f134"
+}
